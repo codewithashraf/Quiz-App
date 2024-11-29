@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Advanced Project</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div id="main">
+    <div id="container">
+      <div id="top">
+        <h2 id="question">quiz question</h2>
+      </div>
+      <hr>
+      <div id="center">
+        <ul>
+          <li>
+            <input type="radio" name="radio" id="a" class="options">
+            <label for="a" id="option-1" class="answer">quiz options</label>
+          </li>
+          <li>
+            <input type="radio" name="radio" id="b" class="options">
+            <label for="b" id="option-2" class="answer">quiz options</label>
+          </li>
+          <li>
+            <input type="radio" name="radio" id="c" class="options">
+            <label for="c" id="option-3" class="answer">quiz options</label>
+          </li>
+          <li>
+            <input type="radio" name="radio" id="d" class="options">
+            <label for="d" id="option-4" class="answer">quiz options</label>
+          </li>
+        </ul>
+      </div>
+      <hr>
+      <div id="bottom">
+        <button id="back-btn">Back</button>
+        <button id="next-btn">Next</button>
+        <button id="submit-btn">Submit</button>
+      </div>
+    </div>
+
+    <!-- saray answer submit karnay kai baad ka view  -->
+     <div id="container2">
+      <h2 id="score"></h2>
+      <h1>Congratulation</h1>
+     </div>
+  </div>
+</body>
+</html>
